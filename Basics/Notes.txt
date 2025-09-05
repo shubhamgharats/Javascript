@@ -23,4 +23,9 @@
                       "33abc" => NaN(Not a Number)
                        true =>1 false=>0
 
-    
+9. Comparisons: console.log(null > 0);  =>false
+                console.log(null == 0); =>false
+                console.log(null >= 0); =>true
+
+10. === {is Strict Check}
+

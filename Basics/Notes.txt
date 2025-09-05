@@ -1,0 +1,21 @@
+1. "var" and "let" are same, but we use "var" which help us avoid scope problem.
+
+2. Prefer not to use var to avoid issue in block scope and functional scope
+
+3. "use strict"; // treats all JS Code as newer version
+ 
+4. alert( 3+3 ) // This can be done in console of browser engine only, not in nodejs 
+
+5. We avoid semicolon in JS and React
+
+6. Datatype: a) number
+             b) bigint => For big Values
+             c) string
+             d) boolean
+             e) null => STANDALONE value
+             f) undefined => value not given/defined
+             e) symbol => unique
+             f) object
+
+7. 'console.log(typeof null)' => give out put as 'Object'=> Is said to be error in language
+    

@@ -21,3 +21,26 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+//---------------------------------------------------------------------------------------------------------
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "ShubhamYT"
+
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anotherName)
+
+let userOne = {
+    email: 'subham@gmail.com',
+    upi: "user@sbiok"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)

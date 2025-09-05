@@ -29,3 +29,12 @@
 
 10. === {is Strict Check}
 
+11. Two category of DataTypes: 1) Primitive
+                               2) Non-Primitive(Reference Type)
+
+12. Primitive: 7 types
+               String, Number, Boolean, Null, Undefined, Symbol, BigInt
+
+13. Non-Primitive: 3 types
+                   Array, Objects, Functions
+

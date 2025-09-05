@@ -18,4 +18,9 @@
              f) object
 
 7. 'console.log(typeof null)' => give out put as 'Object'=> Is said to be error in language
+
+8. Convert to Number: "33" => 33
+                      "33abc" => NaN(Not a Number)
+                       true =>1 false=>0
+
     

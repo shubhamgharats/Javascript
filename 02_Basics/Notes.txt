@@ -13,4 +13,26 @@
 
 6. const all_new_heros = [...marvel_heros,...dc_heros]; => Can merge 2 or more arrays.
 
-7. 
+7. [mySym]: "mykey1", => Syntax of Symbol in a Object.
+
+8. Object.freeze(JsUser); => Freezes Object from any further changes.
+
+9. Some values cannot be accesed using "."
+   
+   console.log(JsUser.email);        // Dot notation
+   console.log(JsUser["email"]);     // Bracket notation
+   console.log(JsUser["full name"]); // Works only with bracket
+   console.log(JsUser.mySym);        // ❌ undefined
+   console.log(typeof JsUser.mySym); // ❌ undefined
+
+10. Examples that fail with dot:
+
+   JsUser.full name   // ❌ space not allowed
+   JsUser.123value    // ❌ cannot start with number
+   JsUser.@id         // ❌ special character not allowed
+   JsUser.mySym       // ❌ Symbols can’t be accessed like this
+
+11. const tinderUser = new Object(); => Singleton Object
+
+    const tindeuser ={}; => Non-Singleton Object
+

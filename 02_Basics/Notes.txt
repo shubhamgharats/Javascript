@@ -9,4 +9,8 @@
 
 4. Difference between Slice and Splice is, Splice modifies Origial Array.
 
-5. 
+5. marvel_heros.concat(dc_heros); => Merge two arrays
+
+6. const all_new_heros = [...marvel_heros,...dc_heros]; => Can merge 2 or more arrays.
+
+7. 

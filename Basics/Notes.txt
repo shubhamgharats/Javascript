@@ -79,4 +79,18 @@
     console.log((Math.random()*10) +1); => Gives random value above 1.
 
     console.log(Math.floor(Math.random() * (max - min + 1)) + min); => Gives value between required Min and Max.
-    
+
+19. let myDate = new Date()
+    console.log(myDate.toString());
+    console.log(myDate.toDateString());
+    console.log(myDate.toISOString());
+    console.log(myDate.toJSON());
+    console.log(myDate.toLocaleString());
+    console.log(myDate.toLocaleTimeString());
+
+    console.log(typeof myDate); => Type of Data is OBJECT
+
+18. let myTimeStamp = Date.now(); => Gives live Timestamp
+
+    console.log(Math.floor(Date.now()/1000)); => Gives time in seconds
+
